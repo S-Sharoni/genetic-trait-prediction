@@ -1,0 +1,11 @@
+﻿,precision,recall,f1-score,support
+,,,,
+Biological Female,1,0.98,0.99,470
+Biological Male,0.98,1,0.99,517
+,,,,
+accuracy,,,0.99,987
+macro avg,0.99,0.99,0.99,987
+weighted avg,0.99,0.99,0.99,987
+,,,,
+Accuracy:,0.992,,,
+Weighted F1 Score:,0.992,,,
