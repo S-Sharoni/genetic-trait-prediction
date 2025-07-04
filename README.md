@@ -15,7 +15,7 @@ It combines:
 
 
 
-### ⚙️ Structure
+## ⚙️ Structure
 
 ```text
 genetic-trait-prediction/
