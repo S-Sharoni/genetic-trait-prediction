@@ -19,19 +19,19 @@ It combines:
 ## 🧱 Structure
 genetic-trait-prediction/
 ├── src/  # Core processing and modeling classes
-│   ├── data_processor.py  # Cleans and standardizes genotype input data
-│   ├── genotype_processor.py  # Trait standardization & grouping, SNP encoding, visualizations
-│   └── trait_classifier.py  # Trains/evaluates models, visualizes via confusion matrices, and outputs classificaton reports
+│├── data_processor.py  # Cleans and standardizes genotype input data
+│├── genotype_processor.py  # Trait standardization & grouping, SNP encoding, visualizations
+│└── trait_classifier.py  # Trains/evaluates models, visualizes via confusion matrices, and outputs classificaton reports
 ├── notebooks/  # Trait-specific workflows
-│   ├── blood_type.ipynb
-│   ├── eye_color.ipynb
-│   ├── ancestry.ipynb
-│   └── gender.ipynb
+│├── blood_type.ipynb
+│├── eye_color.ipynb
+│├── ancestry.ipynb
+│└── gender.ipynb
 ├── models/ # Trained models (.pkl) for reuse
-│   └── *.pkl
+│└── *.pkl
 ├── results/ # Evaluation metrics and classification outputs
-│   ├── *_model_comparison.csv
-│   └── figures/ # Confusion matrix plots (.png)
+│├── *_model_comparison.csv
+│└── figures/ # Confusion matrix plots (.png)
 ├── requirements.txt  # Required Python libraries
 └── README.md  # This file
 
