@@ -13,7 +13,7 @@ It combines:
 - Multiple supervised ML classifiers
 - Cross-validation-based evaluation
 
----
+
 
 ### ⚙️ Structure
 
@@ -37,8 +37,6 @@ genetic-trait-prediction/
 └── README.md               # This file
 ```
 
-
----
 
 ## ⏩ Workflow
 
@@ -68,16 +66,15 @@ Each notebook walks through the following steps:
 8. **Visualize results**
     - Using confusion matrices.
 
-### 📓 Available Notebooks
-- 'blood_type.ipynb'
-- 'eye_color.ipynb'
-- 'ancestry.ipynb'
-- 'gender.ipynb'
+#### 📓 Available Notebooks
+   - 'blood_type.ipynb'
+   - 'eye_color.ipynb'
+   - 'ancestry.ipynb'
+   - 'gender.ipynb'
 
 > ❗ Due to privacy and ethical concerns, raw SNP data has been excluded from the repository.  
 > However, all **trained models**, **classification reports**, and **visualizations** are available for reuse and inspection.
 
----
 
 ## 📋 Results
 
@@ -92,7 +89,6 @@ Results are saved in:
 - 'results/figures/*.png' – Confusion matrices
 - 'models/*.pkl' – Pickled model files for reuse
 
----
 
 ## 👩‍💻 Author
 **Sapir S. Sharoni**  
