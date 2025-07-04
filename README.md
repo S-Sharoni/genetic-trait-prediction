@@ -2,7 +2,6 @@
 
 This repository presents a modular machine learning framework developed as part of my Master's thesis in Data Science, aimed at predicting human traits from SNP genotype data. The framework is designed to be **reusable, interpretable, and adaptable** — it can be extended based on application needs or as research evolves and new genetic associations are discovered.
 
----
 
 ## 🧬 Project Overview
 
